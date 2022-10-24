@@ -1,0 +1,38 @@
+
+
+/* IMPOSTAZIONE FORMATTAZIONE BODY */
+
+body{
+    margin-top: 0px;
+}
+
+.container {
+    width: 75%;
+    margin:  auto;
+}
+
+/* FORMATTAZIONE HEADER */
+
+.background-regulation{
+    background-image: url(../img/pattern.png);
+    background-color: dodgerblue;
+    background-size: 250px;
+}
+
+/* formattazione grandezza logo */
+
+.logo {
+    width: 20%;
+    text-align: left , center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 0%;
+}
+
+span{
+    color: blue;
+}
+
+address {
+    font-style: normal;
+}

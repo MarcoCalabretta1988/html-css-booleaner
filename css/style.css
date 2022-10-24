@@ -1,15 +1,17 @@
+/* DEFAULT FORMATATION*/
 
+figure {
+    margin-left: 0%;
+}
 
 /* IMPOSTAZIONE FORMATTAZIONE BODY */
 
-body{
-    margin-top: 0px;
-}
-
 .container {
     width: 75%;
-    margin:  auto;
+    margin: 0px auto;
 }
+
+
 
 /* FORMATTAZIONE HEADER */
 
@@ -29,10 +31,68 @@ body{
     margin-left: 0%;
 }
 
-span{
+#colore-author{
     color: blue;
 }
 
 address {
     font-style: normal;
+}
+
+/* REGOLAZIONE MARGINE MAIN*/
+
+main{
+    margin-top: 20px;
+}
+
+.evidenziatore{
+    background-color: yellow;
+}
+
+/* regolazione lista*/
+
+ul{
+    padding-left: 15px;
+}
+
+/* FORMATTAZIONE TABELLA*/
+
+th{
+    text-align: left;
+}
+
+thead{
+    background-color:dodgerblue;
+    color :white;
+}
+
+.sfondo-tabella{
+    background-color: rgb(190, 224, 242);
+}
+
+/* formattazione sezione correlari*/
+
+h3{
+    color: grey
+}
+
+.sfondo1{
+    background-image: url(../img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sfondo2{
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
 }
